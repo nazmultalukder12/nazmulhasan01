@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    header{
+    
+    background: #353A40;
+    
+    padding: 20px 0;
+    }
+    
+    .navbar{
+    
+    width: 50%;
+    
+    margin: auto;
+    }
+    
+    .navbar ul{
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    }
+    
+    .navbar ul li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+    .navbar ul li a{
+    
+    text-decoration: none;
+    
+    color: white;
+    
+    font-size: 15px;
+    
+    text-transform: uppercase;
+    }
+    
+    .navbar ul li a img{
+    
+    
+    }
+
+    article{
+        background-image: url(../images/bgi.jpg);
+        min-height: 600px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_content{
+
+width: 80%;
+
+display: flex;
+
+/* height: 300px; */
+
+/* background: green; */
+}
+
+    .relax{
+
+        width: 50%;
+}
+
+    .relax h1{
+
+color: white;
+
+color: white;
+font-size: 32px;
+margin-bottom: 5px;
+font-family: arial;
+text-transform: uppercase;
+
+
+}
+
+.relax span{
+
+color: #6EBD6C;
+
+}
+
+    .relax p{
+
+color: white;
+
+margin-bottom: 15px;
+
+}
+
+    .relax ul{
+
+color: white;
+
+list-style: none;
+
+}
+
+    .relax ul li{
+
+margin-bottom: 13px;
+
+}
+
+
+    .relax ul li i{
+
+font-size: 10px;
+
+border: 2px solid white;
+
+padding: 5px;
+
+border-radius: 30px;
+
+margin-right: 12px;
+
+}
+
+button{
+
+background: transparent;
+
+border: none;
+
+background: #6EBD6C;
+
+padding: 10px 20px;
+
+border-radius: 30px;
+
+font-size: 14px;
+
+color: white;
+
+text-transform: uppercase;
+
+font-weight: 700;
+margin-top: 20px;
+}
+
+button:hover{
+color: black;
+background: white;
+
+
+}
+    
+    .registar{
+        width: 50%;
+        min-height: 300px;
+        /* background: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .registar_form{
+
+width: 80%;
+
+height: 80%;
+
+background: #6EBD6C;
+
+padding: 41px 20px;
+border-radius: 5px;
+}
+
+.registar_form h1{
+
+color: white;
+
+text-align: center;
+
+margin-bottom: 10px;
+}
+
+.registar_form p{
+
+color: white;
+
+margin-bottom: 30px;
+}
+
+.registar_form form{width: 100%;}
+
+.registar_form form input{
+
+width: 98%;
+
+margin-bottom: 7px;
+
+padding: 10px 0;
+
+padding-left: 5px;
+}
+.registar_form form input:focus{
+
+    outline: none;
+    border: none;
+}
+
+
+.registar_form form input[type="submit"]{
+
+padding-left: 0;
+
+width: 100%;
+background: #529353;
+border: none;
+color: white;
+font-size: 15px;
+text-transform: uppercase;
+font-weight: bold;
+box-shadow: 0px 3px 1px #000;
+margin-top: 10px;
+}
+
+
+
+    
+    
